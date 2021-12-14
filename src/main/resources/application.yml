@@ -1,0 +1,15 @@
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+#    dialect: org.hibernate.dialect.MySQL8Dialect
+    url: jdbc:mysql://database-1.ceksrihhqotq.ap-northeast-2.rds.amazonaws.com:3306/project1?serverTimezone=Asia/Seoul&useUnicode=true&characterEncoding=utf8&useSSL=false
+    username: admin
+    password: gustjr0227
+  jpa:
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
