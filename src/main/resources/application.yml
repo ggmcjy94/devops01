@@ -13,3 +13,7 @@ spring:
       hibernate:
         show_sql: true
         format_sql: true
+
+server:
+  address: 3.34.181.127
+  port: 8000
